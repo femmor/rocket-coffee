@@ -7,7 +7,7 @@
   background-color: #fff;
 }
 
-.card.on-sale {
+.card .sale {
     background-color: #E8F6FF;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,6 @@
   color: #000;
   padding: 8px;
   border-radius: 4px;
-  cursor: pointer;
   outline: none;
   border: 0;
 }

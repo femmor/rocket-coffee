@@ -15,5 +15,5 @@ export const standard = () => <ProductListItem
   onAddToCart={action('Add to Cart clicked!')}
   imageUrl={text('Image URL', "https://source.unsplash.com/tNALoIZhqVM/200x100")}
   isSoldOut={text('Sold Out?', true)}
-  onSale={text('On Sale?', true)}
+  isOnSale={text('On Sale?', true)}
 />
