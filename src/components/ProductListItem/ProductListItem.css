@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #EDEDED;
+  padding: 8px;
+  max-width: 240px;
+  background-color: #fff;
+}
+
+.card.on-sale {
+    background-color: #E8F6FF;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    padding: 8px;
+    max-width: 240px;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card .button-primary {
+  background-color: #0A84FF;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+
+.card .button-default {
+  background-color: rgb(219, 219, 219);
+  color: #000;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+
+.card small::before {
+  content: '$'
+}
